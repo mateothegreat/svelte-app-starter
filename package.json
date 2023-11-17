@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"lint": "prettier --check ./src && eslint ./src",
-		"format": "prettier --write ./src"
+		"format": "prettier --write ./src",
+		"ui:add": "npx shadcn-svelte@latest add --path src/lib/components/ui"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^1.27.6",

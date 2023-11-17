@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { Button } from "$components/ui/button";
 	import { buttonVariants } from "$lib/components/ui/button";
-	import * as Dialog from "$lib/components/ui/dialog";
-	import { Input } from "$lib/components/ui/input";
 	import { Label } from "$lib/components/ui/label";
 	import { ModeWatcher, toggleMode } from "mode-watcher";
 	import { Moon, Sun } from "radix-icons-svelte";
+	import * as Dialog from "../app/lib/components/ui/dialog";
+	import { Input } from "../app/lib/components/ui/input";
 	import "./app.postcss";
 </script>
 
