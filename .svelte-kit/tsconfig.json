@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "$components": [
+        "../src/lib/ui/components"
+      ],
+      "$components/*": [
+        "../src/lib/ui/components/*"
+      ],
+      "$lib": [
+        "../src/lib"
+      ],
+      "$lib/*": [
+        "../src/lib/*"
+      ]
+    }
+  }
+}
